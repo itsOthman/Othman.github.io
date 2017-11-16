@@ -16,6 +16,10 @@ h1 {
     align-content: center
 }
 
+h3.date_h3
+{
+    font-family: OCR-A, monospace;
+}
 h3.subject
 {
     color:royalblue;
