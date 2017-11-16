@@ -1,0 +1,113 @@
+body {
+    background-color: lightblue;
+    overflow-x:hidden;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+
+#round1 
+{
+    border-radius: 25px;
+    background: #eee;
+    padding: 20px; 
+    align-content: center
+}
+
+h3.subject
+{
+    color:royalblue;
+}
+
+p.p_sub 
+{
+    color:black;
+    font-size: 150%;
+    padding-top: 19px;
+}
+
+h5.work_date 
+{
+    style="float: right";
+    color : cornflowerblue;
+}
+
+.label-purple, .badge-purple {
+
+background-color: purple;
+
+}
+
+.events{
+    margin-top:50px;
+}
+.topintro {
+    margin-top:20%;
+    margin-bottom:10%;
+}
+
+.intro_icon{
+    zoom :1.2;  /* to make the icon large */
+}
+.social_icon{
+    margin-bottom:10%;
+}
+
+/*
+.downbutton {
+    position: fixed;
+    bottom: 5%;
+	right:  5%;
+    padding: 0;
+    border: none;
+    background: none;
+    display = "none";
+}
+
+.arrow-1{
+  width: 100px;
+  height: 100px;
+  background: #000000;
+  opacity: 0.5;
+  border-radius: 50%;
+  position: absolute;
+}
+.arrow-2{
+  width: 60px;
+  height: 60px;
+  background: #D1D1D1;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+  display: table;
+}
+.arrow-2 i.fa{
+  font-size: 30px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #006064;
+}
+*/
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}

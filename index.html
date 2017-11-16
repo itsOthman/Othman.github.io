@@ -1,91 +1,202 @@
 <!DOCTYPE html PUBLIC>
 
 <HTML lang = "en">
-    
-    <head>
-        <title>O.A student website !</title>
-        <link rel="stylesheet" href="main.css">
+    <head>    
+        <title>O.Ali website !</title>
+        <!-- <link rel="stylesheet" href="main.css">  -->
+        <link rel="stylesheet" type="text/css" href="style.css">
         
-        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         
         <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </head>
-  
     
     <body>
-    <style>
-        #round1 {
-        border-radius: 2px;
-        background: #eee;
-        padding: 20px; 
-        align-content: center
-        }
-    </style>
-        
         <header>
-            <div class = "navbar navbar-inverse navbar-top">
-                <div claass = "container">
-                  <a href = "index.html" class ="navbar-brand"> O.Ali info website </a>
-                    
-                    <!--
-                    <button class = "navbar-toggle" data-toggle = "collapse" data-target=".navHeaderCollapse">
-                        <span class ="icon-bar"></span>
-                        <span class ="icon-bar"></span>
-                        <span class ="icon-bar"></span>
-                    </button> 
-                    -->
-                    
-                    <div class= "collapse navbar-collapse navHeaderCollapse">   
-                        <ul class ="nav navbar-nav navbar-right">
-                            <!--
-                            <li><a href = "github.com/gdooo91">Github Account</a></li>
-                            <li><a href = "homework.html">Home Works</a></li>
-                            <li><a href = "projects.html">Projects</a></li>
-                            <li class= "active"><a href = "About.html">About</a></li>
-                            -->
-                        </ul>
+            <div class="row topintro">
+<!--                <div class= "col-md-1 col-md-offset-1">
+                    <div class= "align-self-center">
+                        <i class="fa fa-hand-paper-o fa-5x" aria-hidden="true"></i>
                     </div>
+               </div>   --> 
+                <div class= "col-md-2 col-md-offset-1">
+                    </br>
+                    </br>
+                    </br>
+                    <i class="fa fa-hand-paper-o fa-5x intro_icon" aria-hidden="true"></i>
+ <!--               <div class="media">
+                    <img class="d-flex align-self-center mr-3" src="https://emojipedia-us.s3.amazonaws.com/thumbs/120/apple/114/winking-face_1f609.png" alt="Generic placeholder image">
+
+                </div>  -->
+                </div>
+                <div class="col-md-6 col-md-offset-1 align-self-center">
+                    <h1> Hi you </h1>
+                    <h2> My name is Othman, I made this website to break the ice with you! </h2>
+                    <p>there is more information about me at the bottom, like skills, previous projects, and experiences!</p>
+                </div>    
+            </div>
+            <p>
+                <div class="col-xs-8 pull-right text-right social_icon">
+                    <a href="https://www.linkedin.com/pub/othman-ali/8b/569/542">  <i class="fa fa-linkedin fa-2x"></i></a>
+                    <a href="https://twitter.com/gdo91">  <i class="fa fa-twitter fa-2x"></i></a>
+                    <a href="https://instagram.com/gdo91">  <i class="fa fa-instagram fa-2x"></i></a>
+                </div>
+            </p>
+        
+        </header>
+
+        <!-- BACKGROUND -->
+        <div class="row events">
+            <div class="col-sm-12"> 
+            <div class="col-sm-1"><!-- Space holder --></div>
+            <div class="col-sm-2">
+                <h3 class ="Subject">
+                    BACKGROUND
+                </h3>
+            </div>
+            <div class="col-sm-8">
+                <p class="P_sub">
+                    I'm an electrical engineering student who is interested in robotics and fascinated by machine learning!  
+                <br>
+                    As an Electrical engineer, I had the chance to work on different projects like building an autothrottle system for a flight simulator, making an image classifier using machine learning.
+                </p>
+            </div>
+        </div>
+        </div>
+        <!-- SKILLS -->
+        <div class="row events">
+            <div class="col-sm-12"> 
+            <div class="col-sm-1"></div>        <!--ADD LOGO/ICON -->
+            <div class="col-sm-2"> 
+                    <h3 class = "Subject">SKILLS</h3><br>
+            </div>
+            <div class="col-sm-2">
+                <h3>    SOFTWARE        </h3>
+                <h4>    Arduino (IDE)   </h4>
+                <h4>    MPLAB-X         </h4>
+                <h4>    Visual Studio   </h4>
+                <h4>    Xilinx ISE      </h4>
+                <h4>    OrCAD PSpice    </h4>
+                <h4>    Eagle           </h4>
+            </div>
+
+            <div class="col-sm-2">
+                <h3>    LANGUAGES </h3>
+                <h4>    Python    </h4>
+                <h4>    MATLAB    </h4>
+                <h4>    C         </h4>
+                <h4>    C++       </h4>
+                <h4>    VHDL      </h4>
+                <h4>    LATEX     </h4>
+                <h4>    HTML      </h4>
+            </div>
+
+            <div class="col-sm-2">
+                <h3>    OTHERS      </h3>
+                <h4>    MS Office   </h4>
+                <h4>    Git         </h4>
+                <h4>    Computer Vision   </h4>
+            </div>
+
+            </div>
+        </div>
+
+        
+        <!-- EXPERIENCE -->
+        <div class="row events">
+            <div class="col-sm-12">
+            <div class="col-sm-1"> <!-- Place Holder! --></div>
+            <div class="col-sm-2"> 
+                <h3 class = "Subject"> EXPERIENCE </h3>
+            </div>
+
+            <div class="col-sm-8">  
+                <div class="row">
+                    <div class="col-md-7"> <h3> Research Assistant </h3> </div>
+                    <div class="col-md-4"> <h3> May 2016 : Present </h3> </div>
+                </div>
+                <h4> Building and testing different systems to obtain the Occupancy/Vacancy of a room.
+                     using vriatiy of sensors like (UWB-IR) sensor, infrared proximity sensor, thermal sensor and thermal camera.
+                </h4>
+                <span class="badge badge-pill badge-primary">C</span>
+                <span class="badge badge-pill badge-primary">Python</span>
+                <span class="badge badge-pill badge-primary">Raspberry Pi</span>
+                <span class="badge badge-pill badge-primary">Signal Processing</span>
+                <span class="badge badge-pill badge-primary">Image Processing</span>
+                </br>
+                </br>
+                
+                <div class="row">
+                    <div class="col-md-7"> <h3> Teaching Assistant </h3> </div>
+                    <div class="col-md-4"> <h3> Fall 2016 </h3> </div>
+                </div>
+                <h4> Helped students conduct laboratory experiments, and graded homework assignments. </h4>
+                <span class="badge badge-pill badge-primary">Electronics</span>
+                <span class="badge badge-pill badge-primary">PSpice</span>
+                <span class="badge badge-pill badge-primary">Oscilloscope</span>
+                <span class="badge badge-pill badge-primary">Electrical Testing Tools</span>
+                </br>
+                </br>
+            </div>
+        </div>
+        </div>
+        <!-- Othr Projects -->
+        <div class="row events">
+            <div class="col-sm-12">
+            <div class="col-sm-1"><!-- place holder --></div>
+            <div class="col-sm-2"> 
+                <h3 class = "Subject"> PROJECTS </h3>
+            </div>
+
+            <div class="col-sm-8">  
+            <!--    Project #1 -->
+                <h3> Auto-throttle for Flight Simulator  </h3> 
+                <h4> •	Built and implemented an Auto-throttle system to a flight simulator </h4>
+                <h4> •	Used a mixture of off-the-shelf and in-house prototype hardware components for the throttle control  </h4>
+                <h4> •	Interfaced the built systems to flight simulation software (X-Plane 10) using Arduino Ethernet shield </h4>
+                <span class="badge badge-pill badge-primary">Arduino</span>
+                <span class="badge badge-pill badge-primary">Ethernet</span>
+                <span class="badge badge-pill badge-primary">TCP/IP</span>
+                <span class="badge badge-pill badge-primary">Panel Layout</span>
+                </br>
+                </br>
+                
+            <!--    Project #2 -->
+                <h3> Six-Legged Spider Robot   </h3> 
+                <h4> •	Built a six-legged robot for Mechatronics class using a total of 12 servo motors and Arduino board </h4>
+                <h4> •	Built the main code to control the robot movements  </h4>
+                <h4> •	Added a Bluetooth module to control the robot wirelessly using a smartphone </h4>
+                <span class="badge badge-pill badge-primary">Arduino</span>
+                <span class="badge badge-pill badge-primary">PSpice</span>
+                <span class="badge badge-pill badge-primary">Wireless communication</span>
+                
+            </div>
+            
+        </div>
+        </div>
+        </br>
+        </br>
+        </br>
+        <footer>
+            <div class = "footer">
+                <div class = "contaner">
+                    <!--
+                    <div class="center-block col-lg-3" style="float: none">
+                        <h4 class="text-left" style="color:#444">Email: gdooo91  &nbsp </h4>
+                        <a href="http://www.sdsmt.edu/">South Dakota School of Mines & Technology </a>
+                        <p>Rapid city, South Dakota, 57701</p>
+                        <p>2015-2017</p>
+                    </div>
+                    -->
+        
                 </div>
             </div>
-            
-
-        </header>
-        
-      <div class="jumbotron">
-        <div class="container">
-            <h1>Hello !</h1>
-            <p>And welcome to my information website. 
-            This website is made using Bootstrap, you can find more information by clicking on the button. 
-            feel free to Add or Follow me in the following social media websites.</p>
-            <p>
-                <a class="btn btn-primary btn-lg" href="http://getbootstrap.com/getting-started/" role="button">More about Bootstrap &raquo;</a>
-        
-            </p>
-      </div>
-    </div>
-
-    
-        
-        <div class="well" style="color:#000"> 
-            
-            <div class="col-xs-8 ">
-                <a href="https://www.linkedin.com/pub/othman-ali/8b/569/542">  <i class="fa fa-linkedin fa-2x"></i></a>
-                <a href="https://github.com/gdooo91">        <i class="fa fa-github fa-2x"></i></a>
-                <a href="gdooo91@gmail.com">                 <i class="fa fa-envelope-o fa-2x"></i></a>
-            </div>
-            <h4 class="text-right" style="color:#089"> 2017  &nbsp </h4>
-        </div>
-        
-        
-        <script src ="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-        <!-- Latest compiled and minified JavaScript -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-        
+        </footer> 
     </body>
     
 </HTML>
