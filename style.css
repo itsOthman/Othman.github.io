@@ -47,7 +47,16 @@ background-color: purple;
 .events{
     margin-top:50px;
 }
-.topintro {
+.new_wind_bot{
+    margin-bottom:10%;
+}
+
+.new_wind_top{
+    margin-top:20%;
+}
+
+
+.intro {
     margin-top:20%;
     margin-bottom:10%;
 }
