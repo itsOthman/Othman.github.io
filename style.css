@@ -19,10 +19,20 @@ h1 {
 h3.date_h3
 {
     font-family: OCR-A, monospace;
+    font-size: 150%;
+    
 }
 h3.subject
 {
     color:royalblue;
+}
+
+h4.date_h4
+{
+    font-family: OCR-A, monospace;
+    font-size: 110%;
+    font-weight: bold; 
+    
 }
 
 p.p_sub 
