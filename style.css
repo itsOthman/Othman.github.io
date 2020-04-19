@@ -82,3 +82,29 @@ html {
     scroll-behavior: smooth;
 }
 
+.zoom{
+    color: #0F0F0F; 
+    position: relative;
+    animation: btn_animation 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes btn_animation {
+    0%   {color:black;  top:0px;}
+    25%  {color:black;  top:50px;}
+    50%  {color:black;  top:50px;}
+    75%  {color:white;  top:50px;}
+    100% {color:white;  top:0px;}
+    0% {color:white;  top:0px;}
+}
+
+.zoomZ {
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    /* width: 200px;
+    height: 200px; */
+    margin: 0 auto;
+  }
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
