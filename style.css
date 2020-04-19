@@ -74,3 +74,11 @@ p.p_sub
     margin-top:20px;
     margin-bottom:20px;
 }
+
+.down_btn{
+    text-align: center;
+}
+html {
+    scroll-behavior: smooth;
+}
+
